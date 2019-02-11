@@ -9,10 +9,10 @@ $ cd E:\learngit
 $ pwd
 /e/learngit
 
-3、通过git init命令把这个目录变成Git可以管理的仓库：
-$ git init
+3、初始化一个Git仓库，使用git init命令。
 
-4、往Git仓库中添加文件：
-$ git add readme.txt
-$ git commit -m "wrote a readme file"
+4、添加文件到Git仓库，分两步：
+使用命令：git add <file>，注意，可反复多次使用，添加多个文件；
+使用命令：git commit -m <message>，完成。
+
 
