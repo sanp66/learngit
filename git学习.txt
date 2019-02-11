@@ -4,3 +4,15 @@ Git学习：
 $ git config --global user.name "Your Name"
 $ git config --global user.email "email@example.com"
 
+2、选择一个合适的地方，创建一个空目录：
+$ cd E:\learngit
+$ pwd
+/e/learngit
+
+3、通过git init命令把这个目录变成Git可以管理的仓库：
+$ git init
+
+4、往Git仓库中添加文件：
+$ git add readme.txt
+$ git commit -m "wrote a readme file"
+
